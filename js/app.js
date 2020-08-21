@@ -43,9 +43,9 @@ for(index1=0;index1<newTweets.length;index1++) {
     var term1=(Object.keys(newTweets[index1])[1]);
     var term2=(Object.keys(newTweets[index1])[2]);
 
-    console.log(newTweets[index1][term]);
-    console.log(newTweets[index1][term1]);
-    console.log(newTweets[index1][term2]);
+    console.log("tweet:",newTweets[index1][term]);
+    console.log("username:",newTweets[index1][term1]);
+    console.log("created_at:",newTweets[index1][term2]);
 
 
     
