@@ -82,6 +82,9 @@ function resultant(newTweets) {
 
         return false;
     }
+    else {
+        console.log("not found");
+    }
 
 }
 for (var i = 0; i < newTweets.length; i++) {
